@@ -102,12 +102,30 @@ html {
 }
 
 body {
+    color:#fff;
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1em;
   height: 100%;
 }
-
+.header .main .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    font-size: 2em;
+}
+.main {
+    border-bottom:#fff 2px solid;
+    font-size: 1.2em;
+}
+.footer {
+    border-top:#fff 2px solid;
+}
+.footer i {
+    margin: 10px 10px 10px 10px;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
@@ -115,10 +133,10 @@ body {
   justify-content: space-between;
 }
 
+
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   align-items: center;
-  color: #fff;
   display: flex;
   line-height: 1.5em;
   font-size: 1.3em;
