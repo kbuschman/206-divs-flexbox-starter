@@ -102,7 +102,7 @@ html {
 }
 
 body {
-    color:#fff;
+  color:#fff;
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1em;
@@ -118,7 +118,7 @@ body {
 }
 .main {
     border-bottom:#fff 2px solid;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .footer {
     border-top:#fff 2px solid;
@@ -139,7 +139,7 @@ body {
   align-items: center;
   display: flex;
   line-height: 1.5em;
-  font-size: 1.3em;
+  font-size: .89em;
   background-color: #9a81b1;
   height: 300px;
   justify-content: center;
